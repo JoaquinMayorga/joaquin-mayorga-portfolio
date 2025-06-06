@@ -34,10 +34,12 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/mediaqueries.css"
             ],
             "scripts": []
           },
@@ -93,6 +95,7 @@
                 "glob": "**/*",
                 "input": "public"
               }
+              
             ],
             "styles": [
               "src/styles.css"
