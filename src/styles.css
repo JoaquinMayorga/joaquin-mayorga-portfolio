@@ -109,6 +109,9 @@ a:hover {
     color: black;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
 }
 
 .menu-links li {
@@ -117,6 +120,8 @@ a:hover {
 
 .menu-links.open {
     max-height: 300px;
+    z-index: 99 !important;
+    
 }
 
 .hamburger-icon.open span:first-child {
