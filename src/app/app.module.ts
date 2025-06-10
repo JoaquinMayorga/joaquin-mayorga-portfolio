@@ -8,21 +8,25 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     ProfileComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     ReactiveFormsModule,
     AppRoutingModule,
     RouterModule.forRoot([
-      { path: '', component: ProfileComponent },
-      { path: 'experience', component: ExperienceComponent },
+    
+      
     ])
   ],
   providers: [],
